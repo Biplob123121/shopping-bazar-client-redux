@@ -1,9 +1,15 @@
 import React from 'react';
+import Products from '../components/Products';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home.</h2>
+            <h2 className='heading'> Welcome to Shopping Bazar</h2>
+
+            <section>
+                <h3>Products</h3>
+                <Products />
+            </section>
         </div>
     );
 };
